@@ -396,18 +396,24 @@ document.write(`
  <br>
  <h3> 1. Latar Belakang </h3>
 
- <p> Kemiskinan merupakan sebagai salah satu tantangan terbesar yang dihadapi oleh negara dalam pembangunan yang inklusif dan berkelanjutan. Pemerintah sudah banyak bekerja keras dan mengusahakan untuk tercapainya kehidupan masyarakat yang layak dengan menggunakan beberapa program seperti bantuan sosial dan program program lainnya.  Tapi masih banyak kendala yang dihadapi seperti distribusi bantuan yang tidak tepat sasaran yang sering kali menjadi kendala yang menjadikan program mengurangi tingkat kemiskinan secara efektif. Salah satu penyebab utamanya adalah kurangnya pemahaman yang mendalam mengenai distribusi kemiskinan di berbagai daerah terutama di kabupaten dan kota di masing masing provinsi di Indonesia.</p>
+ <p> Kemiskinan merupakan sebagai salah satu tantangan terbesar yang dihadapi oleh negara dalam pembangunan yang inklusif dan berkelanjutan. Pemerintah Jawa timur sudah banyak bekerja keras dan mengusahakan untuk tercapainya kehidupan masyarakat yang layak dengan menggunakan beberapa program seperti bantuan sosial dan program program lainnya.  Tapi masih banyak kendala yang dihadapi seperti distribusi bantuan yang tidak tepat sasaran pada suatu daerah yang sering kali menjadi kendala yang menjadikan program mengurangi tingkat kemiskinan kurang efektif. Salah satu penyebab utamanya adalah kurangnya pemahaman yang mendalam mengenai distribusi kemiskinan di daerah terutama di kabupaten dan kota di masing masing kabupaten/kota di Jawa timur./p>
 
- <p>Dengan masalah ini, pengelompokan daerah berdasarkan tingkat kemiskinan dapat menjadi alat yang efektif bagi pemerintah khususnya kementerian social, dalam merancang dan menargetkan program program pemulihan ekonomi yang tepat sasaran. Dengan menggunakan Teknik clustering/ pengelompokan data seperti K-Means dapat membantu dalam mengidentifikasi kelompok daerah dengan karakteristik kemiskinan yang serupa, yang memungkinkan pemerintah menganggarkan sumber daya yang lebih efisien dan efektif. </p>
+<p>Berdasarkan data dari tahun 2018 – 2024, terlihat bahwa setiap kabupaten atau kota dijawa timur memiliki tingkat kemiskinan yang berbeda beda. Namun, program bantuan dan pemulihan ekonomi cenderung bersifat umum tanpa memperhatikan karakteristik spesifik dari masing masing wilayah. Akibatnya, daerah- daerah yang seharusnya mendapatkan prioritas dalam program bantuan tidak memperoleh alokasi yang memadai, sementara daerah dengan tingkat kemiskinan yang lebih rendah bisa jadi menerima alokasi yang berlebih.</p>
+ <p>DDengan masalah ini, pengelompokan daerah berdasarkan tingkat kemiskinan dapat menjadi alat yang efektif bagi pemerintah khususnya kementerian social Jawa Timur, dalam merancang dan menargetkan program program pemulihan ekonomi yang tepat sasaran. Dengan menggunakan Teknik clustering/ pengelompokan data dengan menggunakan algoritma K-Means dapat membantu dalam mengidentifikasi kelompok daerah dengan karakteristik kemiskinan yang serupa, yang memungkinkan pemerintah menganggarkan sumber daya yang lebih efisien dan efektif.</p>
 <br>
 
+<h3> Rumusan Masalah</h3>
+<p>1.	Bagaimana distribusi garis kemiskinan di kabupaten dan kota di jawa timut selama 2018 – 2024 ?</p>
+<p>2.	Bagaimana cara melakukan pengelompokan daerah berdasarkan garis kemiskinan untuk memastikan program bantuan lebih tepat sasaran ?</p>
+<p>3.	Bagaimana hasil pengelompokan ini dapat digunakan oleh pemerintah provinsi dalam perencanaan distribusi program bantuan sosial dan pemulihan ekonomi yang lebih efisien ?</p>
+
  <h3> 2. Tujuan </h3>
-
-<p> Penelitian ini bertujuan untuk menerapkan algoritma K-Means dalam mengelompokkan kota-kota di Indonesia berdasarkan penyebaran kemiskinan dari tahun 2016 hingga 2024. Melalui pengelompokan ini, diharapkan Kementerian Sosial dapat:</p>
-<p>1.	Mengidentifikasi kluster kluster daerah dengan tingkat kemiskinan yang serupa.</p>
-<p>2.	Merancang strategi pengendalian dan pemulihan ekonomi yang lebih tepat sasaran </p>
-<p>3.	Mengalokasikan anggaran bantuan social (Bansos) sesuai dengan tingkat kemiskinan yang ada di setiap kluster, sehingga program yang dijalankan lebih efektif dalam menurunkan angka kemiskinan daerah daerah yang ada di Indonesia.</p>
-
+<p>1.	Menganalisis garis kemiskinan per kapita per bulan di setiap kabupaten/ kota di jawa timur pada periode 2018 – 2024</p>
+<p>2.	Mengidentifikasi pola dan tren distribbusi kemiskinan di jawa timur menggunakan pengelompokan berbasis algoritma K-Means</p>
+<p>3.	Menerapkan algoritma K-Means dalam mengelompokkan kota-kota di Jawa timur berdasarkan penyebaran kemiskinan dari tahun 2018 hingga 2024. Sehingga menghasilkan peta sebaran kemiskinan dalam tiap tiap cluster. Melalui pengelompokan ini, diharapkan Kementerian Sosial dapat:</p>
+<p>a.	Mengidentifikasi kluster kluster daerah dengan tingkat kemiskinan yang serupa.</p>
+<p>b.	Merancang strategi pengendalian dan pemulihan ekonomi yang lebih tepat sasaran </p>
+<p>c.	Mengalokasikan anggaran bantuan social (Bansos) sesuai dengan tingkat kemiskinan yang ada di setiap kluster, sehingga program yang dijalankan lebih efektif dalam menurunkan angka kemiskinan daerah daerah yang ada di jawa timur.</p>
 <br>
  <h3> 3. Manfaat  </h3>
 
@@ -416,11 +422,14 @@ document.write(`
 <p>A. Bagi pemerintah ( Kementerian sosial )</p>
 <p>1. Mempercepat pemulihan ekonomi di daerah-daerah dengan tingkat kemiskinan tinggi melalui program yang lebih terarah.</p>
 <p>2. Memperoleh alat bantu berbasis data untuk pengambilan keputusan dalam distribusi bantuan sosial yang lebih tepat sasaran</p>
+<p>3. Menyusun rencana dan strategi daerah mana yang memerlukan intervensi khusus dalam pengendalian dan pemulihan ekonomi serta strategi yang lebih tepat untuk setiap cluster.</p>
+<p>4. Rekomendasi kebijakan berbasis data untuk memastikan bahwa bantuan ekonomi dan sosial terfokus pada daerahdaerah  yang paling membutuhkan perhatian khusus. </p>
 <br>
 <p>Bagi Masyarakat </p>
 <p>1. Meningkatkan kesejahteraan masyarakat melalui distribusi bantuan sosial dari pemerintah yang lebih merata dan tepat sasaran</p>
 <p>2. Meningkatkan pertumbuhan ekonomi yang merata di Indonesia, terutama pada daerah daerah yang paling terdampak oleh kemiskinan.</p>
 <p></p>
+
 
 
     <script type="text/x-thebe-config">
